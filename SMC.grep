@@ -1,0 +1,7 @@
+src/main.h
+src/qt/forms/sendcoinsdialog.ui
+src/qt/forms/overviewpage.ui
+src/qt/overviewpage.cpp
+src/qt/sendcoinsentry.cpp
+src/qt/bitcoinunits.cpp
+README.md
