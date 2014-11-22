@@ -1988,7 +1988,7 @@ bool LoadBlockIndex(bool fAllowNew)
         pchMessageStart[2] = 0xb8;
         pchMessageStart[3] = 0xdb;
         // hashGenesisBlock = uint256("0xa50faf35e1dddf4a076a907fbcef6d9d1595390cdb1c818a35dae53b67ad0aa8"); //orig
-	hashGenesisBlock = uint256("oxb0fdd3d2ae75ef772cc27bbbd77bf619b3f9911f77534ec6fec800fed7aa6a87"); // my GenBlock
+	hashGenesisBlock = uint256("0xb0fdd3d2ae75ef772cc27bbbd77bf619b3f9911f77534ec6fec800fed7aa6a87"); // my GenBlock
     }
 
     //
@@ -2052,7 +2052,7 @@ bool LoadBlockIndex(bool fAllowNew)
 
         // If genesis block hash does not match, then generate new genesis hash.
         // orig: if (false && block.GetHash() != hashGenesisBlock)
-        if (true && block.GetHash() != hashGenesisBlock)
+        if (false && block.GetHash() != hashGenesisBlock)
         {
             printf("Searching for genesis block...\n");
             // This will figure out a valid hash and Nonce if you're
