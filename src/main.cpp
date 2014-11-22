@@ -2040,7 +2040,7 @@ bool LoadBlockIndex(bool fAllowNew)
         {
             block.nTime    = 1416634187;
             // block.nNonce   = 386402991; // orig
-	    block.nNonce = 386508471 // my Nonce 
+	    block.nNonce = 386508471; // my Nonce 
         }
 
         //// debug print
